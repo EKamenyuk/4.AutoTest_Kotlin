@@ -34,7 +34,7 @@ class MainKtTest {
 
         val result = calcCommission(type, amountOfPreviousPurchases, amountTransfer)
 
-        assertEquals(3500, result)
+        assertEquals(2600, result)
     }
     @Test
     fun processingCalc() {
