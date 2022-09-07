@@ -10,7 +10,6 @@ const val COMMISSION_OTHER_TYPE_3 = 35_00
 const val COMMISSION_TYPE_3 = 0.0075
 const val COMMISSION_TYPE_5 = 0
 
-
 fun main() {
     processingCalc(type = TYPE_3, amountTransfer = 9_100_00)   //вводится номер платёжной системы и сумма
     processingCalc(type = TYPE_5, amountTransfer = 8_500_00)
