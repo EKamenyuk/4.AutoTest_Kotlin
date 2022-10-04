@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aea2cc6-82fc-4f91-9875-489c4602398e" name="Changes" comment="&quot;Correction No. 1&quot;" />
+    <list default="true" id="2aea2cc6-82fc-4f91-9875-489c4602398e" name="Changes" comment="&quot;Correction No. 1&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "D:/Kotlin/avtoTesty",
+    "last_opened_file_path": "D:/Kotlin/хуйня/Kotling-Task_4_1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -60,8 +73,8 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MainKtTest.calcCommission_3">
-    <configuration name="MainKtTest.calcCommission" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MainKtTest.calcCommission_Zero_0">
+    <configuration name="MainKtTest.calcCommission_Type_1_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -74,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;MainKtTest.calcCommission&quot;" />
+            <option value="&quot;MainKtTest.calcCommission_Type_1_2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -84,7 +97,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKtTest.calcCommission_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainKtTest.calcCommission_Type_2_0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -97,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;MainKtTest.calcCommission_2&quot;" />
+            <option value="&quot;MainKtTest.calcCommission_Type_2_0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKtTest.calcCommission_3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainKtTest.calcCommission_Zero_0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;MainKtTest.calcCommission_3&quot;" />
+            <option value="&quot;MainKtTest.calcCommission_Zero_0&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKtTest.processingCalc" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainKtTest.calcCommission_type_4_3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;MainKtTest.processingCalc&quot;" />
+            <option value="&quot;MainKtTest.calcCommission_type_4_3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="avtoTesty [test jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainKtTest.processingCalc_Type_3_3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,24 +177,25 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
-            <option value="jacocoTestReport" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MainKtTest.processingCalc_Type_3_3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainKtTest.calcCommission_3" />
-        <item itemvalue="Gradle.MainKtTest.processingCalc" />
-        <item itemvalue="Gradle.MainKtTest.calcCommission_2" />
-        <item itemvalue="Gradle.MainKtTest.calcCommission" />
-        <item itemvalue="Gradle.avtoTesty [test jacocoTestReport]" />
+        <item itemvalue="Gradle.MainKtTest.calcCommission_Zero_0" />
+        <item itemvalue="Gradle.MainKtTest.calcCommission_Type_1_2" />
+        <item itemvalue="Gradle.MainKtTest.calcCommission_Type_2_0" />
+        <item itemvalue="Gradle.MainKtTest.processingCalc_Type_3_3" />
+        <item itemvalue="Gradle.MainKtTest.calcCommission_type_4_3" />
       </list>
     </recent_temporary>
   </component>
